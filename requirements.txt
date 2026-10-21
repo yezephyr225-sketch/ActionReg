@@ -1,0 +1,19 @@
+# ============================================================
+# 依赖列表（Windows / PyCharm / VSCode 通用）
+# ------------------------------------------------------------
+# 说明：
+#  1) PyTorch 请按 README 指引按你的 CUDA 版本单独安装（带 +cuXXX 的 GPU 版），
+#     这里不写死，避免装成 CPU 版。
+#  2) mediapipe 与 numpy/opencv 的版本需互相兼容，下面给出的是经过验证的组合。
+#     若安装时报 numpy 版本冲突，按下面注释的版本固定即可。
+# ============================================================
+
+mediapipe==0.10.21        # 提供经典 mp.solutions.pose API，安装即用，无需手动下模型
+numpy==1.26.4             # 与上面 mediapipe 兼容（避免 numpy>=2 冲突）
+opencv-python==4.11.0.86  # 与 numpy 1.26 兼容
+matplotlib>=3.6
+scikit-learn>=1.2
+pillow>=9.0               # 实时演示画面绘制中文标签用
+
+# PyTorch（务必单独装 GPU 版，命令见 README）：
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121

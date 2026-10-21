@@ -1,0 +1,56 @@
+{
+  "method": "Leave-One-Video-Out",
+  "n_folds": 16,
+  "accuracy": 0.4375,
+  "macro_precision": 0.5625,
+  "macro_recall": 0.4375,
+  "macro_f1": 0.4642857142857143,
+  "per_class": {
+    "Greeting": {
+      "precision": 0.25,
+      "recall": 0.5,
+      "f1": 0.3333333333333333
+    },
+    "Handshake": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571
+    },
+    "Hug": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    "Reject": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      2,
+      0,
+      0,
+      2
+    ],
+    [
+      1,
+      3,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      2,
+      1
+    ],
+    [
+      4,
+      0,
+      0,
+      0
+    ]
+  ]
+}

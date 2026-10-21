@@ -1,0 +1,32 @@
+{
+  "accuracy": 0.75,
+  "macro_precision": 0.625,
+  "macro_recall": 0.75,
+  "macro_f1": 0.6666666666666666,
+  "per_class": {
+    "Greeting": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666
+    },
+    "Handshake": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Hug": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Reject": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "params_million": 0.413584,
+  "infer_ms": 2.260003089904785,
+  "infer_fps": 28318.545353270445,
+  "device": "cuda"
+}

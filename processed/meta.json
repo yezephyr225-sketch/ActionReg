@@ -1,0 +1,134 @@
+{
+  "classes": [
+    "Greeting",
+    "Handshake",
+    "Hug",
+    "Reject"
+  ],
+  "class_to_idx": {
+    "Greeting": 0,
+    "Handshake": 1,
+    "Hug": 2,
+    "Reject": 3
+  },
+  "num_classes": 4,
+  "clip_len": 64,
+  "train": [
+    {
+      "npy": "D:\\ActionReg\\processed\\skeletons\\Greeting__VID_20260621_130532.npy",
+      "label": 0,
+      "cls": "Greeting",
+      "video": "VID_20260621_130532.mp4",
+      "n_frames": 173
+    },
+    {
+      "npy": "D:\\ActionReg\\processed\\skeletons\\Greeting__VID_20260621_130737.npy",
+      "label": 0,
+      "cls": "Greeting",
+      "video": "VID_20260621_130737.mp4",
+      "n_frames": 133
+    },
+    {
+      "npy": "D:\\ActionReg\\processed\\skeletons\\Greeting__VID_20260621_130411.npy",
+      "label": 0,
+      "cls": "Greeting",
+      "video": "VID_20260621_130411.mp4",
+      "n_frames": 131
+    },
+    {
+      "npy": "D:\\ActionReg\\processed\\skeletons\\Handshake__VID_20260621_130708.npy",
+      "label": 1,
+      "cls": "Handshake",
+      "video": "VID_20260621_130708.mp4",
+      "n_frames": 160
+    },
+    {
+      "npy": "D:\\ActionReg\\processed\\skeletons\\Handshake__VID_20260621_130444.npy",
+      "label": 1,
+      "cls": "Handshake",
+      "video": "VID_20260621_130444.mp4",
+      "n_frames": 159
+    },
+    {
+      "npy": "D:\\ActionReg\\processed\\skeletons\\Handshake__VID_20260621_130600.npy",
+      "label": 1,
+      "cls": "Handshake",
+      "video": "VID_20260621_130600.mp4",
+      "n_frames": 215
+    },
+    {
+      "npy": "D:\\ActionReg\\processed\\skeletons\\Hug__VID_20260621_130754.npy",
+      "label": 2,
+      "cls": "Hug",
+      "video": "VID_20260621_130754.mp4",
+      "n_frames": 147
+    },
+    {
+      "npy": "D:\\ActionReg\\processed\\skeletons\\Hug__VID_20260621_130643.npy",
+      "label": 2,
+      "cls": "Hug",
+      "video": "VID_20260621_130643.mp4",
+      "n_frames": 178
+    },
+    {
+      "npy": "D:\\ActionReg\\processed\\skeletons\\Hug__VID_20260621_130432.npy",
+      "label": 2,
+      "cls": "Hug",
+      "video": "VID_20260621_130432.mp4",
+      "n_frames": 181
+    },
+    {
+      "npy": "D:\\ActionReg\\processed\\skeletons\\Reject__VID_20260621_130723.npy",
+      "label": 3,
+      "cls": "Reject",
+      "video": "VID_20260621_130723.mp4",
+      "n_frames": 121
+    },
+    {
+      "npy": "D:\\ActionReg\\processed\\skeletons\\Reject__VID_20260621_130510.npy",
+      "label": 3,
+      "cls": "Reject",
+      "video": "VID_20260621_130510.mp4",
+      "n_frames": 173
+    },
+    {
+      "npy": "D:\\ActionReg\\processed\\skeletons\\Reject__VID_20260621_130821.npy",
+      "label": 3,
+      "cls": "Reject",
+      "video": "VID_20260621_130821.mp4",
+      "n_frames": 90
+    }
+  ],
+  "test": [
+    {
+      "npy": "D:\\ActionReg\\processed\\skeletons\\Greeting__VID_20260621_130632.npy",
+      "label": 0,
+      "cls": "Greeting",
+      "video": "VID_20260621_130632.mp4",
+      "n_frames": 147
+    },
+    {
+      "npy": "D:\\ActionReg\\processed\\skeletons\\Handshake__VID_20260621_130745.npy",
+      "label": 1,
+      "cls": "Handshake",
+      "video": "VID_20260621_130745.mp4",
+      "n_frames": 125
+    },
+    {
+      "npy": "D:\\ActionReg\\processed\\skeletons\\Hug__VID_20260621_130545.npy",
+      "label": 2,
+      "cls": "Hug",
+      "video": "VID_20260621_130545.mp4",
+      "n_frames": 276
+    },
+    {
+      "npy": "D:\\ActionReg\\processed\\skeletons\\Reject__VID_20260621_130613.npy",
+      "label": 3,
+      "cls": "Reject",
+      "video": "VID_20260621_130613.mp4",
+      "n_frames": 141
+    }
+  ],
+  "num_train": 12,
+  "num_test": 4
+}

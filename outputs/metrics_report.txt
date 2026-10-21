@@ -1,0 +1,20 @@
+动作识别模型评估报告
+==================================================
+类别: ['Greeting', 'Handshake', 'Hug', 'Reject']
+测试样本数: 4
+总体准确率: 0.7500
+宏平均 P/R/F1: 0.6250/0.7500/0.6667
+参数量: 413,584 (0.414 M)
+推理: 2.26 ms/样本, 等效 28319 FPS (CUDA)
+
+              precision    recall  f1-score   support
+
+    Greeting       0.50      1.00      0.67         1
+   Handshake       1.00      1.00      1.00         1
+         Hug       1.00      1.00      1.00         1
+      Reject       0.00      0.00      0.00         1
+
+    accuracy                           0.75         4
+   macro avg       0.62      0.75      0.67         4
+weighted avg       0.62      0.75      0.67         4
+
